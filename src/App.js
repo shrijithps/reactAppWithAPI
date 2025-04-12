@@ -1,5 +1,8 @@
 import { useState } from 'react';
 import './App.css';
+import CommentsList from './CommentsList';
+import PostsList from './PostsList';
+import UsersList from './UsersList';
 
 function App() {
 
@@ -74,45 +77,10 @@ function App() {
     </div>
     
     <div className='section'>
-      
-
-        {showUsers && (
-          <div>
-            <ul>
-              {users.map(user => (
-                <li key = {user.id}>
-                <pre>{JSON.stringify(user,null,1)}</pre>
-                </li>
-              ))}
-            </ul>
-          </div>
-          )
-        }
-      </div>
-
-    <div className='section'>
-      { showPosts && (
-        <ul>
-          {posts.map(post => (
-            <li key = {post.id}>
-              <pre>{JSON.stringify(post, null, 1)}</pre>
-            </li>
-          ))}
-        </ul>
-      )}
+        {showUsers && <UsersList users={users}/> }
+        { showPosts && <PostsList posts={posts}/> }
+        {showComments && <CommentsList comments={comments}/> }
     </div>
-
-      <div className='section'>
-          {showComments && (
-            <ul>
-              {comments.map(comment => (
-                <li key = {comment.id}>
-                  <pre>{JSON.stringify(comment, null, 1)}</pre>
-                </li>
-              ))}
-            </ul>
-          )}
-      </div>
     </div>
   );
 }
