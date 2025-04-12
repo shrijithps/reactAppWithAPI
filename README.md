@@ -1,43 +1,43 @@
-🚀 React API Explorer
-A simple yet powerful React app that showcases data fetched from public APIs like Users, Posts, and Comments using fetch(). This project is focused on learning and demonstrating core React concepts such as:
+# 🚀 React API Explorer
 
-🔁 State management using useState
+A simple yet powerful React app that showcases data fetched from public APIs like **Users**, **Posts**, and **Comments** using the native `fetch()` API.  
+This project is focused on learning and demonstrating core React concepts with clean UI and structured layout.
 
-⚡ API integration with fetch
+---
 
-🧩 Conditional rendering
+## 📦 Features
 
-🎯 Clean component structure
+- 🔁 State management with `useState`
+- ⚡ API integration using `fetch`
+- 🧩 Conditional rendering for dynamic content
+- 🖼️ Pretty JSON display using `<pre>`
+- 💅 Responsive layout using basic CSS
+- 🚫 Avoids nested scroll issues and ensures clean full-page content display
 
-💅 Responsive layout using CSS
+---
 
-📦 Features
-Fetch and display Users, Posts, and Comments
+## 🛠️ Tech Stack
 
-Toggle between data views dynamically
+- React (Vite or CRA)
+- Vanilla CSS
+- JSONPlaceholder API (for dummy data)
 
-Minimal, readable JSON view with structured layout
+---
 
-Clean UI with responsive behavior
+## 📚 Learning Goals
 
-📸 Screenshots
-(Optional: Add screenshots here showing your app layout)
+This project helped me practice and understand:
 
-🛠 Tech Stack
-React
+- Core React hooks like `useState`
+- Conditional rendering and state toggling
+- API integration and async/await logic
+- DOM structure and layout control
+- Avoiding layout shift caused by content expansion
+- CSS basics like flex, padding, spacing, and positioning
 
-Vanilla CSS
+---
 
-Fetch API
+## 📸 Screenshots
+![image](https://github.com/user-attachments/assets/5f94d2e4-de05-4afb-a6cc-04e544fc4c59)
 
-📚 Learning Goals
-This project helped me practice:
-
-React fundamentals
-
-DOM structure control with conditional rendering
-
-Layout behavior and styling with CSS
-
-Managing scroll vs full-page content
 
